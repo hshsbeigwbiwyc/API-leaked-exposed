@@ -1,0 +1,103 @@
+Here's a list of potential leak points to be aware of:
+
+Unprotected directory listing with documentation files.
+Directory traversal attacks on API documentation paths.
+Insecure permissions on documentation files.
+Sensitive API key or token exposure in documentation.
+Cleartext passwords or secrets in code comments.
+Inadvertent exposure of API endpoints in code comments.
+Sensitive information disclosed in HTTP response headers.
+Outdated or deprecated API endpoints that are still documented.
+Exposure of API documentation in version control repositories.
+Hidden or commented-out Swagger endpoints.
+Incorrectly configured web server settings.
+Default credentials used for API documentation access.
+Lack of authentication for API documentation.
+Inclusion of sensitive data in examples or code snippets.
+File inclusion vulnerabilities.
+Error messages that reveal internal server paths.
+Disclosure of SQL queries in documentation.
+Excessive information in error responses.
+Insecure API documentation platforms.
+Incorrectly configured permissions on documentation folders.
+HTTP TRACE method enabled, potentially revealing documentation.
+Insecure direct object references to documentation files.
+Misconfigured reverse proxy settings.
+Improperly configured CDN settings.
+Sensitive information in HTML comments.
+Information disclosure through verbose logging.
+API keys exposed in URL parameters.
+API endpoints listed in server response headers.
+Unprotected database backup files that contain documentation.
+Hidden or exposed authentication tokens in JavaScript files.
+Misconfigured web application firewall (WAF) rules.
+API documentation exposed in third-party service endpoints.
+Sensitive information in error logs.
+Insecure cloud storage configurations.
+Excessive exposure of internal server details.
+Excessive CORS policy permissions.
+Disclosure of authorization tokens in cookies.
+Unsecured Docker containers with documentation.
+Code injection vulnerabilities leading to documentation leaks.
+Sensitive information in HTTP request headers.
+Insecurely shared links to documentation files.
+Sensitive information in environment variables.
+Misconfigured API gateway settings.
+Insecurely shared code repositories.
+Disclosure of internal API paths.
+Sensitive information in response payloads.
+Insecure web hosting configurations.
+Unprotected backups of documentation.
+Exposure of access control lists (ACLs) for documentation.
+Misconfigured server-side templates revealing documentation.
+----------------------------------------------------------
+Information disclosure through debug mode or verbose error messages.
+Exposed documentation in cached web pages.
+Sensitive data in comments within JavaScript files.
+Incorrectly configured server logs.
+Insecurely shared links to API documentation on social media.
+Sensitive information in hidden form fields or cookies.
+Directory traversal attacks via user inputs.
+Inclusion of secrets or keys in configuration files.
+Sensitive data in temporary files or backups.
+Publicly accessible database backups.
+Documentation exposed through API versioning endpoints.
+Web server vulnerabilities leading to disclosure.
+Insufficient rate limiting, allowing data scraping.
+Information leakage through status codes or responses.
+Exposed information in administrative interfaces.
+Sensitive data in the URL or query parameters.
+Leaked credentials or tokens in environment variables.
+Documentation files stored in cloud storage buckets.
+Misconfigured S3 bucket permissions.
+Insecure serialization or deserialization.
+Misconfigured reverse proxy or load balancer.
+Hidden or exposed Swagger documentation URLs.
+Exposed API documentation in code repositories.
+Sensitive information in server-side templates.
+Disclosure of encryption keys in documentation.
+Insecure cross-origin resource sharing (CORS) policy.
+Leaked secrets in configuration management tools.
+Misconfigured Content Security Policy (CSP).
+Information exposure through HTTP response headers.
+Insecurely stored backups in publicly accessible locations.
+Sensitive data in response headers or cookies.
+Publicly accessible system logs.
+Exposed API documentation in mobile apps.
+Disclosure of internal IP addresses.
+Misconfigured firewall or security group rules.
+Sensitive data in hidden HTML elements.
+Information leakage through email notifications.
+Leaked database connection strings.
+Insecure server-side request forgery (SSRF) vulnerabilities.
+Sensitive information in version control commit messages.
+Misconfigured caching mechanisms.
+Disclosure of security vulnerabilities in documentation.
+Exposed API documentation in analytics tools.
+Sensitive data in application crash reports.
+Information disclosure via parameter manipulation.
+Leaked data through insecure cross-site scripting (XSS).
+Insecure handling of file uploads.
+Disclosure of API secrets in error messages.
+Sensitive data in response payloads or JSON.
+Misconfigured content delivery networks (CDNs).
